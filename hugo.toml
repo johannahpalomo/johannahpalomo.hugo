@@ -1,8 +1,9 @@
 baseURL = 'https://johannahpalomo.com/'
 locale = 'en-us'
 title = 'Johannah Palomo'
-theme = "hugo-bearcub"
+theme = ["hugo-bearcub","hugo-pdf"]
 copyright = "Johannah Palomo (C) 2026"
+
 
 defaultContentLanguage = "en"
 
