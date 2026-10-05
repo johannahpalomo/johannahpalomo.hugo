@@ -11,6 +11,7 @@ As a Graduate Teaching Fellow at UNC Chapel Hill, I teach SOCI 129: Sociology of
 
 ## List of courses
 
+{{< details >}}
 
 ### Instructor of record
 
@@ -27,7 +28,11 @@ As a Graduate Teaching Fellow at UNC Chapel Hill, I teach SOCI 129: Sociology of
 - Sociology of Religion (Spring 2021)
 - Social and Economic Justice (Fall 2020)
 
-## Selected student feedback 
+{{< /details >}}
+
+## Selected student feedback
+
+{{< details >}} 
 
 ### SOCI 422
 
@@ -71,3 +76,5 @@ Spring 2024
 “We used a variety of methods for learning including a textbook, an in depth ethnography, videos, lectures, and many different participative activities to learn. She did an excellent job at making sure everyone understood and interacted with the course material. She was fantastic at helping us learn about the sociology of religion in a comfortable, engaging, and inclusive manner.”
 
 “Johannah provided all students with all the resources necessary to learn the material properly. There was a clear syllabus that provided everything we needed, and she was available by email at reasonable hours. All PowerPoints with the information we learned that day were shared with us, and the test did not stray from what we learned.”
+
+{{< /details >}}
