@@ -8,6 +8,7 @@
     <language>en-us</language>
     <managingEditor>johannah@unc.edu (Johannah Palomo)</managingEditor>
     <webMaster>johannah@unc.edu (Johannah Palomo)</webMaster>
+    <copyright>Johannah Palomo (C) 2026</copyright>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

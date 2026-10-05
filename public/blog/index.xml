@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blog on Johannah Palomo</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on Johannah Palomo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>johannah@unc.edu (Johannah Palomo)</managingEditor>
+    <webMaster>johannah@unc.edu (Johannah Palomo)</webMaster>
+    <copyright>Johannah Palomo (C) 2026</copyright>
+    <lastBuildDate>Sun, 04 Oct 2026 20:19:23 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/blog/my-first-post/</link>
+      <pubDate>Sun, 04 Oct 2026 20:19:23 -0400</pubDate><author>johannah@unc.edu (Johannah Palomo)</author>
+      <guid>http://localhost:1313/blog/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;this-is-a-test-post&#34;&gt;This is a test post&lt;/h2&gt;&#xA;&lt;p&gt;I have nothing to say here, I just want to see how &lt;strong&gt;text&lt;/strong&gt; gets &lt;em&gt;rendered&lt;/em&gt;. Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="this-is-a-test-post">This is a test post</h2>
+<p>I have nothing to say here, I just want to see how <strong>text</strong> gets <em>rendered</em>. Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,7 @@ baseURL = 'https://johannahpalomo.com/'
 locale = 'en-us'
 title = 'Johannah Palomo'
 theme = "hugo-bearcub"
+copyright = "Johannah Palomo (C) 2026"
 
 defaultContentLanguage = "en"
 
@@ -18,6 +19,11 @@ enableRobotsTXT = true
     # to people with poor eyesight. For more information about color contrast
     # and accessibility, see https://web.dev/color-and-contrast-accessibility/
     noClasses = false
+
+[languages]
+  [languages.en]
+    [languages.en.params]
+      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
   # The description of your website
