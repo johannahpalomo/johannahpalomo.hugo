@@ -2,7 +2,10 @@
 title: "Research"
 menu: "main"
 weight: 2
+hideReply: true
 ---
+
+# Research
 
 I am a mixed methods researcher and a scholar of religion, gender, and well-being. I am interested in how individuals understand, interpret, and enact the teachings and policies of their religious organizations and the relationship between religiosity and well-being.
 

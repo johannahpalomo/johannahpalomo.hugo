@@ -2,7 +2,10 @@
 title: "Teaching"
 menu: "main"
 weight: 3
+hideReply: true
 ---
+
+# Teaching
 
 As a Graduate Teaching Fellow at UNC Chapel Hill, I teach SOCI 129: Sociology of Religion and SOCI 422: Sociology of Mental Health and Illness to undergraduates. I enjoy teaching; it is an opportunity to invite students to explore their world from a new perspective and consider more deeply the social processes they may take for granted in their everyday lives. I encourage active participation and discussion in my courses. In course reviews, students frequently remark they appreciate my preparation, organization, and facilitation. They recognize my passion and knowledge for the subjects I teach and find me approachable and dedicated to clarifying course information and providing accommodation. In 2026, I received the UNC Chapel Hill Department of Sociology’s Wilson-Aldrich Teaching Award.
 

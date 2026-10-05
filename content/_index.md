@@ -4,7 +4,6 @@ menu: "main"
 weight: 1
 ---
 
-
 I am a doctoral candidate in [Sociology](https://sociology.unc.edu/) at [the University of North Carolina at Chapel Hill](https://sociology.unc.edu/). 
 
 I am a mixed methods researcher and a scholar of religion, gender, and well-being. I am interested in how individuals understand, interpret, and enact the teachings and policies of their religious organizations and the relationship between religiosity and well-being. I am especially interested in what happens when people *don't* agree with their religion.

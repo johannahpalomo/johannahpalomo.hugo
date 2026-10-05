@@ -2,8 +2,9 @@
 title: "CV"
 menu: "main"
 weight: 4
+hideReply: true
 ---
 
-## Curriculum Vitae
+# Curriculum Vitae
 
-{{< pdf src="/pdfs/cv.pdf#toolbar=0" width="100%" height="400px" >}}
+{{< pdf src="/pdfs/cv.pdf#toolbar=0" width="100%" height="900px" >}}
