@@ -70,3 +70,7 @@ enableRobotsTXT = true
   [params.author]
     name = "Johannah Palomo" # Your name as shown in the RSS feed metadata
     email = "johannah@unc.edu" # Added to the footer so readers can reply to posts
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
