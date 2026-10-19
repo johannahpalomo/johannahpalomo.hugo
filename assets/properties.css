@@ -1,30 +1,29 @@
 /* To modify your theme, copy this file into your site /assets directory and edit there */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
   /* Background colors */
-  --color-bg: #FBF1C7;
+  --color-bg: #F9F5D7;
   /* Primary colors (ex. text color) */
-  --color-primary: #282828;
+  --color-primary: #1D2021;
   /* Secondary colors (ex. code background, inputs) */
   --color-secondary: #EBDBB2;
   /* Primary accents (ex. links) */
   --color-accent-1: #076678;
   /* Secondary accent (ex. visited links) */
   --color-accent-2: #8F3F71;
-  --font-family: "Space Grotesk", Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
-  --font-size: 2rem;
+  --font-family: Figtree, Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     /* Background colors */
-    --color-bg: #282828;
+    --color-bg: #1D2021;
     /* Primary colors (ex. text color) */
-    --color-primary: #FBF1C7;
+    --color-primary: #F9F5D7;
     /* Secondary colors (ex. code background, inputs) */
-    --color-secondary: #3C3836;
+    --color-secondary: #282828;
     /* Primary accents (ex. links) */
     --color-accent-1: #83A598;
     /* Secondary accent (ex. visited links) */
