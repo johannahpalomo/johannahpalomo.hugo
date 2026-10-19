@@ -13,45 +13,105 @@
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/blog/my-first-post/</link>
+      <link>http://localhost:1313/my-first-post/</link>
       <pubDate>Sun, 04 Oct 2026 20:19:23 -0400</pubDate><author>johannah@unc.edu (Johannah Palomo)</author>
-      <guid>http://localhost:1313/blog/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;this-is-a-test-post&#34;&gt;This is a test post&lt;/h2&gt;&#xA;&lt;p&gt;I have nothing to say here, I just want to see how &lt;strong&gt;text&lt;/strong&gt; gets &lt;em&gt;rendered&lt;/em&gt;. Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h2 id="this-is-a-test-post">This is a test post</h2>
+      <guid>http://localhost:1313/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;this-is-a-test-post&#34;&gt; &lt;a href=&#34;#this-is-a-test-post&#34;&gt;&#xA;    This is a test post&#xA;&lt;/a&gt; &lt;/h2&gt;&#xA;&#xA;&lt;p&gt;I have nothing to say here, I just want to see how &lt;strong&gt;text&lt;/strong&gt; gets &lt;em&gt;rendered&lt;/em&gt;. Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <content:encoded><![CDATA[
+<h2 id="this-is-a-test-post"> <a href="#this-is-a-test-post">
+    This is a test post
+</a> </h2>
+
 <p>I have nothing to say here, I just want to see how <strong>text</strong> gets <em>rendered</em>. Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
-]]></content:encoded>
+
+      
+      <hr>
+      
+      
+      <p><a href='mailto:johannah@unc.edu'>Reply by email</a></p>
+      
+      
+      ]]></content:encoded>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/blog/markdown-syntax/</link>
+      <link>http://localhost:1313/markdown-syntax-guide/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><author>johannah@unc.edu (Johannah Palomo)</author>
-      <guid>http://localhost:1313/blog/markdown-syntax/</guid>
+      <guid>http://localhost:1313/markdown-syntax-guide/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
-<h2 id="headings">Headings</h2>
+
+<h2 id="headings"> <a href="#headings">
+    Headings
+</a> </h2>
+
 <p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
-<h1 id="h1">H1</h1>
-<h2 id="h2">H2</h2>
-<h3 id="h3">H3</h3>
-<h4 id="h4">H4</h4>
-<h5 id="h5">H5</h5>
-<h6 id="h6">H6</h6>
-<h2 id="paragraph">Paragraph</h2>
+
+<h1 id="h1"> <a href="#h1">
+    H1
+</a> </h1>
+
+
+<h2 id="h2"> <a href="#h2">
+    H2
+</a> </h2>
+
+
+<h3 id="h3"> <a href="#h3">
+    H3
+</a> </h3>
+
+
+<h4 id="h4"> <a href="#h4">
+    H4
+</a> </h4>
+
+
+<h5 id="h5"> <a href="#h5">
+    H5
+</a> </h5>
+
+
+<h6 id="h6"> <a href="#h6">
+    H6
+</a> </h6>
+
+
+<h2 id="paragraph"> <a href="#paragraph">
+    Paragraph
+</a> </h2>
+
 <p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
 <p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
-<h2 id="blockquotes">Blockquotes</h2>
+
+<h2 id="blockquotes"> <a href="#blockquotes">
+    Blockquotes
+</a> </h2>
+
 <p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
-<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
+
+<h4 id="blockquote-without-attribution"> <a href="#blockquote-without-attribution">
+    Blockquote without attribution
+</a> </h4>
+
 <blockquote>
 <p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 <strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
 </blockquote>
-<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
+
+<h4 id="blockquote-with-attribution"> <a href="#blockquote-with-attribution">
+    Blockquote with attribution
+</a> </h4>
+
 <blockquote>
 <p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<!-- raw HTML omitted -->
 — <!-- raw HTML omitted -->Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><!-- raw HTML omitted --></p>
 </blockquote>
-<h2 id="tables">Tables</h2>
+
+<h2 id="tables"> <a href="#tables">
+    Tables
+</a> </h2>
+
 <p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
 <table>
 	<thead>
@@ -71,7 +131,11 @@
 			</tr>
 	</tbody>
 </table>
-<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
+
+<h4 id="inline-markdown-within-tables"> <a href="#inline-markdown-within-tables">
+    Inline Markdown within tables
+</a> </h4>
+
 <table>
 	<thead>
 			<tr>
@@ -88,35 +152,17 @@
 			</tr>
 	</tbody>
 </table>
-<h2 id="code-blocks">Code Blocks</h2>
-<h4 id="code-block-with-backticks">Code block with backticks</h4>
+
+<h2 id="code-blocks"> <a href="#code-blocks">
+    Code Blocks
+</a> </h2>
 
 
+<h4 id="code-block-with-backticks"> <a href="#code-block-with-backticks">
+    Code block with backticks
+</a> </h4>
 
 
-
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
-</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln"> 4</span><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln"> 5</span><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln"> 8</span><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
-<pre><code>&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;Test&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
 
 
 
@@ -131,20 +177,70 @@
 </span></span><span class="line"><span class="ln"> 8</span><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></div>
-<h2 id="list-types">List Types</h2>
-<h4 id="ordered-list">Ordered List</h4>
+<h4 id="code-block-indented-with-four-spaces"> <a href="#code-block-indented-with-four-spaces">
+    Code block indented with four spaces
+</a> </h4>
+
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h4 id="code-block-with-hugos-internal-highlight-shortcode"> <a href="#code-block-with-hugos-internal-highlight-shortcode">
+    Code block with Hugo&rsquo;s internal highlight shortcode
+</a> </h4>
+
+
+
+
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="ln"> 1</span><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="ln"> 2</span><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 3</span><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 4</span><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 5</span><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 6</span><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 7</span><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 8</span><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln"> 9</span><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="ln">10</span><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></div>
+
+<h2 id="list-types"> <a href="#list-types">
+    List Types
+</a> </h2>
+
+
+<h4 id="ordered-list"> <a href="#ordered-list">
+    Ordered List
+</a> </h4>
+
 <ol>
 <li>First item</li>
 <li>Second item</li>
 <li>Third item</li>
 </ol>
-<h4 id="unordered-list">Unordered List</h4>
+
+<h4 id="unordered-list"> <a href="#unordered-list">
+    Unordered List
+</a> </h4>
+
 <ul>
 <li>List item</li>
 <li>Another item</li>
 <li>And another item</li>
 </ul>
-<h4 id="nested-list">Nested list</h4>
+
+<h4 id="nested-list"> <a href="#nested-list">
+    Nested list
+</a> </h4>
+
 <ul>
 <li>Fruit
 <ul>
@@ -160,7 +256,11 @@
 </ul>
 </li>
 </ul>
-<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
+
+<h2 id="other-elements--abbr-sub-sup-kbd-mark"> <a href="#other-elements--abbr-sub-sup-kbd-mark">
+    Other Elements — abbr, sub, sup, kbd, mark
+</a> </h2>
+
 <p><!-- raw HTML omitted -->GIF<!-- raw HTML omitted --> is a bitmap image format.</p>
 <p>H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O</p>
 <p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted --> + Y<!-- raw HTML omitted -->n<!-- raw HTML omitted --> = Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
@@ -173,13 +273,21 @@
 <p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</div>]]></content:encoded>
+</div>
+      
+      <hr>
+      
+      
+      <p><a href='mailto:johannah@unc.edu'>Reply by email</a></p>
+      
+      
+      ]]></content:encoded>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>http://localhost:1313/blog/math-typesetting/</link>
+      <link>http://localhost:1313/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate><author>johannah@unc.edu (Johannah Palomo)</author>
-      <guid>http://localhost:1313/blog/math-typesetting/</guid>
+      <guid>http://localhost:1313/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
 <p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
@@ -201,12 +309,24 @@
 </ul>
 <p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
 
-<h3 id="examples">Examples</h3>
+
+<h3 id="examples"> <a href="#examples">
+    Examples
+</a> </h3>
+
 
 <p>Block math:
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
-$$</p>]]></content:encoded>
+$$</p>
+      
+      <hr>
+      
+      
+      <p><a href='mailto:johannah@unc.edu'>Reply by email</a></p>
+      
+      
+      ]]></content:encoded>
     </item>
   </channel>
 </rss>

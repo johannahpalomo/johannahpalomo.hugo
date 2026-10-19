@@ -7,3 +7,6 @@
 [submodule "hugo-pdf"]
 	path = themes/hugo-pdf
 	url = https://github.com/sytranvn/hugo-pdf.git
+[submodule "themes/hugo-moddedbear"]
+	path = themes/hugo-moddedbear
+	url = https://github.com/moddedBear/hugo-moddedbear-theme

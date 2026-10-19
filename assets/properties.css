@@ -1,0 +1,37 @@
+/* To modify your theme, copy this file into your site /assets directory and edit there */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+  /* Background colors */
+  --color-bg: #FBF1C7;
+  /* Primary colors (ex. text color) */
+  --color-primary: #282828;
+  /* Secondary colors (ex. code background, inputs) */
+  --color-secondary: #EBDBB2;
+  /* Primary accents (ex. links) */
+  --color-accent-1: #076678;
+  /* Secondary accent (ex. visited links) */
+  --color-accent-2: #8F3F71;
+  --font-family: "Space Grotesk", Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+  --font-size: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Background colors */
+    --color-bg: #282828;
+    /* Primary colors (ex. text color) */
+    --color-primary: #FBF1C7;
+    /* Secondary colors (ex. code background, inputs) */
+    --color-secondary: #3C3836;
+    /* Primary accents (ex. links) */
+    --color-accent-1: #83A598;
+    /* Secondary accent (ex. visited links) */
+    --color-accent-2: #D3869B;
+  }
+}
+
+html {
+  font-size: 14pt;
+}

@@ -2,7 +2,6 @@
 title: "CV"
 menu: "main"
 weight: 4
-hideReply: true
 ---
 
 # Curriculum Vitae
