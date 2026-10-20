@@ -10,9 +10,9 @@
   /* Secondary colors (ex. code background, inputs) */
   --color-secondary: #EBDBB2;
   /* Primary accents (ex. links) */
-  --color-accent-1: #076678;
+  --color-accent-1: #98971A;
   /* Secondary accent (ex. visited links) */
-  --color-accent-2: #8F3F71;
+  --color-accent-2: #B16286;
   --font-family: Figtree, Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
@@ -25,7 +25,7 @@
     /* Secondary colors (ex. code background, inputs) */
     --color-secondary: #282828;
     /* Primary accents (ex. links) */
-    --color-accent-1: #458588;
+    --color-accent-1: #98971A;
     /* Secondary accent (ex. visited links) */
     --color-accent-2: #B16286;
   }

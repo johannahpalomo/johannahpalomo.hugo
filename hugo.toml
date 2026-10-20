@@ -2,7 +2,7 @@ baseURL = 'https://johannahpalomo.com/'
 locale = 'en-us'
 title = 'Johannah Palomo'
 theme = ["hugo-moddedbear","hugo-pdf"]
-copyright = "Johannah Palomo (C) 2026"
+copyright = "Johannah Palomo © 2026"
 defaultContentLanguage = "en"
 
 # Generate a nice robots.txt for SEO
@@ -80,7 +80,7 @@ ignoreErrors = ["error-disable-taxonomy"]
     hideRecent = true
     numRecent = 5 # Number of recent posts to display
     hideFeatured = true
-    hideTags = false
+    hideTags = true
 
   [params.blog]
     useEmailReply = true  # show an email reply link at the bottom of each post
