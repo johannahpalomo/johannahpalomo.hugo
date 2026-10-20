@@ -10,7 +10,7 @@ I am a mixed methods researcher and a scholar of religion, gender, and well-bein
 
 I expect to complete my PhD in May 2027. I received my MA in Sociology from UNC Chapel Hill in 2023 and my BA in Sociology and the Study of Women, Gender, and Sexuality from [Rice University](https://www.rice.edu/) in 2020.
 
-Beyond my scholarly work, I love [going to the movies with friends](https://www.thechelseatheater.org/), birding, reading, editing Wikipedia, [learning new programming languages](https://github.com/johannahpalomo), and watching basketball[^1].
+Beyond my scholarly work, I love going to the movies with friends, birding, reading, editing Wikipedia, and watching basketball[^1].
 
 Find me elsewhere: [Twitter](https://x.com/JohannahPalomo), [Bluesky](https://bsky.app/profile/johannahpalomo.bsky.social), [Github](https://github.com/johannahpalomo), or [via email](mailto:johannah@unc.edu).
 
