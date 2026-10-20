@@ -50,8 +50,8 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   # The path to your avatar image for use on the home page. It should be somewhere
   # in the /assets directory. You can comment or remove this line to hide the image.
-  # avatarImage = "images/avatar.jpg"
-  # avatarImageAlt = "My avatar" # A description of your avatar image
+  avatarImage = "images/avatar.jpg"
+  avatarImageAlt = "My avatar" # A description of your avatar image
 
   # This title is used as the site_name on the Hugo's internal opengraph
   # structured data template

@@ -14,6 +14,4 @@ Beyond my scholarly work, I love [going to the movies with friends](https://www.
 
 Find me elsewhere: [Twitter](https://x.com/JohannahPalomo), [Bluesky](https://bsky.app/profile/johannahpalomo.bsky.social), [Github](https://github.com/johannahpalomo), or [via email](mailto:johannah@unc.edu).
 
----
-
 [^1]: [San Antonio Spurs](https://en.wikipedia.org/wiki/San_Antonio_Spurs), [Las Vegas Aces](https://en.wikipedia.org/wiki/Las_Vegas_Aces), [UNC Men's Basketball](https://en.wikipedia.org/wiki/North_Carolina_Tar_Heels_men's_basketball), and [UNC Women's Basketball](https://en.wikipedia.org/wiki/North_Carolina_Tar_Heels_women's_basketball)

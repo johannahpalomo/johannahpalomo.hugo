@@ -9,7 +9,7 @@
     <managingEditor>johannah@unc.edu (Johannah Palomo)</managingEditor>
     <webMaster>johannah@unc.edu (Johannah Palomo)</webMaster>
     <copyright>Johannah Palomo (C) 2026</copyright>
-    <lastBuildDate>Sun, 04 Oct 2026 20:19:23 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 19:34:46 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
@@ -161,6 +161,24 @@ Spring 2024</p>
     <p>Unable to display PDF file. <a href="/pdfs/cv.pdf#toolbar=0">Download</a> instead.</p>
 </object>
 
+
+      
+      <hr>
+      
+      
+      <p><a href='mailto:johannah@unc.edu'>Reply by email</a></p>
+      
+      
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>Dissertation</title>
+      <link>http://localhost:1313/dissertation/</link>
+      <pubDate>Mon, 19 Oct 2026 19:34:46 -0400</pubDate><author>johannah@unc.edu (Johannah Palomo)</author>
+      <guid>http://localhost:1313/dissertation/</guid>
+      <description>&lt;p&gt;My three-paper dissertation does [this thing].&lt;/p&gt;&#xA;&lt;p&gt;I wanted to know if people tend to agree with their congregations about various social issues.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>My three-paper dissertation does [this thing].</p>
+<p>I wanted to know if people tend to agree with their congregations about various social issues.</p>
 
       
       <hr>

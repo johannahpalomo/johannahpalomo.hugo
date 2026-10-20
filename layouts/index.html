@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="main-content">
+    {{ with resources.Get .Site.Params.avatarImage }}
+        <img src="{{ .Permalink }}" class="avatar-image" alt="{{ $.Site.Params.avatarImageAlt }}" width="200" />
+    {{ end }}
+
+    <div class="content-text">
+        {{ .Content }}
+    </div>
+</div>
+
+{{ if not .Site.Params.home.hideRecent }}
+    {{ partial "recent_posts.html" . }}
+{{ end }}
+
+{{ if not .Site.Params.home.hideFeatured }}
+    {{ partial "featured_posts.html" . }}
+{{ end }}
+
+{{ if not .Site.Params.home.hideTags }}
+    <div>
+      {{ range .Site.Taxonomies.tags }}
+        <a class="blog-tags" href="{{ .Page.RelPermalink }}">#{{ lower .Page.Title }}</a>
+      {{ end }}
+    </div>
+{{ end }}
+
+{{ partial "custom_home_footer.html" . }}
+
+{{ end }}
