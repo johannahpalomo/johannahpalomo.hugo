@@ -40,7 +40,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   description = "Johannah Palomo's academic website"
 
   # The path to your favicon
-  # favicon = "images/favicon.png"
+  favicon = "images/seedling.png"
 
   # These images will show up when services want to generate a preview of a link
   # to your site. Ignored if `generateSocialCard = true`. For more information
@@ -51,7 +51,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   # The path to your avatar image for use on the home page. It should be somewhere
   # in the /assets directory. You can comment or remove this line to hide the image.
   avatarImage = "images/avatar.jpg"
-  avatarImageAlt = "My avatar" # A description of your avatar image
+  avatarImageAlt = "Me" # A description of your avatar image
 
   # This title is used as the site_name on the Hugo's internal opengraph
   # structured data template
