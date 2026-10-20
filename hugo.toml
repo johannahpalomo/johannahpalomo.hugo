@@ -2,7 +2,7 @@ baseURL = 'https://johannahpalomo.com/'
 locale = 'en-us'
 title = 'Johannah Palomo'
 theme = ["hugo-moddedbear","hugo-pdf"]
-copyright = "Johannah Palomo © 2026"
+copyright = "Website by me"
 defaultContentLanguage = "en"
 
 # Generate a nice robots.txt for SEO
@@ -33,7 +33,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 [languages]
   [languages.en]
     [languages.en.params]
-      madeWith = "Made with [Hugo moddedBear](https://github.com/moddedBear/hugo-moddedbear-theme)"
+      madeWith = "Photo by [Anson Tong](https://ansonjtong.com/) | Made with [Hugo moddedBear](https://github.com/moddedBear/hugo-moddedbear-theme)"
 
 [params]
   # The description of your website
@@ -74,7 +74,7 @@ ignoreErrors = ["error-disable-taxonomy"]
   generateSocialCard = true
 
   # Whether to hide the footer containing copyright and "made with" notices.
-  hideFooter = true
+  hideFooter = false
 
   [params.home]
     hideRecent = true
